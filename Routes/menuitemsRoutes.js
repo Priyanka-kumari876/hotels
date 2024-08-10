@@ -31,6 +31,7 @@ router.post('/',async (req,res)=>{
             res.status(500).json({error:' server errors'});
         }
     })
-    // comment added again
+// adding few comments  here
+// adding a new features to the git hub 
 
      module.exports = router;
