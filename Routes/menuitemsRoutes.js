@@ -27,8 +27,10 @@ router.post('/',async (req,res)=>{
             res.status(200).json(data);
         }
         catch(err){
-            console.log('cannot fetch data ');
+            console.log(err);
             res.status(500).json({error:' server errors'});
         }
     })
+    // comment added again
+
      module.exports = router;
